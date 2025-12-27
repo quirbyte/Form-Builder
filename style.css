@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f2f4f7; /* light gray like the image */
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* Main container */
+.container {
+  display: flex;
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Left & Right cards */
+.form-builder,
+.form-preview {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px 35px;
+  flex: 1;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* Headings */
+.form-builder h1,
+.form-preview h1 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.form-builder h3 {
+  font-size: 15px;
+  margin-bottom: 8px;
+  margin-top: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Inputs & Select */
+select,
+input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 6px;
+  border: 1px solid #d6d6d6;
+  font-size: 15px;
+  outline: none;
+}
+
+select:focus,
+input:focus {
+  border-color: #0056b3;
+}
+
+/* Button */
+.button {
+  margin-top: 25px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background: #0b5ed7;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #094bb3;
+}
+
+/* Preview area */
+.preview-area {
+  min-height: 300px;
+  border: 2px dashed #d0d0d0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 15px;
+}

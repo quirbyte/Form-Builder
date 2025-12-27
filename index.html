@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Form Builder Panel -->
+      <div class="form-builder">
+        <h1>Form Builder</h1>
+
+        <h3>Select Field Type</h3>
+        <select id="fieldType">
+          <option value="text">Text</option>
+          <option value="radio">Radio</option>
+          <option value="checkbox">CheckBox</option>
+        </select>
+
+        <h3>Field Label</h3>
+        <input
+          type="text"
+          id="field-label"
+          placeholder="Enter field label"
+        />
+
+        <!-- Options input (shown only for radio / checkbox) -->
+        <h3 id="optionsTitle" style="display: none;">
+          Options (comma separated)
+        </h3>
+        <input
+          type="text"
+          id="field-options"
+          placeholder="male,female"
+          style="display: none;"
+        />
+
+        <div class="button">
+          <button type="button" class="addBtn">Add field</button>
+        </div>
+      </div>
+
+      <!-- Preview Panel -->
+      <div class="form-preview">
+        <h1>Form Preview</h1>
+        <div class="preview-area"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
