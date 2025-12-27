@@ -1,16 +1,46 @@
+# 🧩 Form Builder
 
-# Form-Builder
+A simple **Form Builder web application** that allows users to dynamically create form fields and preview them in real time.
 
-- Your task is to a form builder that allows users to add different types of input fields dynamically. Include options for text inputs, checkboxes, and radio buttons. Each added field should be displayed in a preview area.
+---
 
+## 🚀 Features
 
-- The UI should resemble the example shown below..
+- Add **Text**, **Radio**, and **Checkbox** fields dynamically
+- Provide custom labels for each field
+- Enter custom options for Radio & Checkbox fields (comma-separated)
+- Live **Form Preview** updates instantly
+- Clean, responsive UI
 
-![Image](https://utfs.io/f/9174ecc0-b9c4-454c-9db6-2d6f1ed6138d-ng35bm.png)
+---
 
+## 🛠️ Tech Stack
 
+- HTML
+- CSS
+- Vanilla JavaScript
 
-### Don't copy UI as it is, only take reference from it.
+---
 
+## 📸 UI Overview
+
+**Left Panel – Form Builder**
+- Select field type
+- Enter field label
+- Enter options (for radio/checkbox)
+- Add field
+
+**Right Panel – Form Preview**
+- Displays all added fields dynamically
+
+---
+
+## 🧪 How to Use
+
+1. Select a field type (Text / Radio / Checkbox)
+2. Enter a field label
+3. If Radio or Checkbox, enter options like:
+4. Click **Add field**
+5. View the generated form in the preview section
 
 
